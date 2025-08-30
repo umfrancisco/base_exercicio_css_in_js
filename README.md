@@ -48,6 +48,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## to fix
 npm install --legacy-peer-deps
 
-if error => Line x:x: Delete ␍ prettier/prettier
+if error => Line x:x: Delete ␍ prettier/prettier <br>
 add "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"" in package.json, scripts
 then npm run format
