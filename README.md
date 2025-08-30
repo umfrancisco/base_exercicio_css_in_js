@@ -44,3 +44,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## to fix
+npm install --legacy-peer-deps
+
+if error => Line x:x: Delete ␍ prettier/prettier
+add "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"" in package.json, scripts
+then npm run format
