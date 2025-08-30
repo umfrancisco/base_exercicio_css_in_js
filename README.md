@@ -49,5 +49,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 npm install --legacy-peer-deps
 
 if error => Line x:x: Delete ␍ prettier/prettier <br>
-add "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"" in package.json, scripts
+add "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"" in package.json, scripts <br>
 then npm run format
